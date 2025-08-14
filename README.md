@@ -45,7 +45,7 @@ The `@/` path alias points to the `src/` directory
 **Install Dependencies**
 
 ```shell
-pnpm i
+pnpm install
 ```
 
 **Start Preview**
