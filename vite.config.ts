@@ -5,7 +5,7 @@ import { viteSourceLocator } from "@metagptx/vite-plugin-source-locator";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/<yhttps://github.com/priestleyjoseph46-code/coba-lagi.git>/', // Replace with your GitHub repository name
+  base: yhttps://github.com/priestleyjoseph46-code/coba-lagi.git // Replace with your GitHub repository name
   plugins: [react()],
 });
 
