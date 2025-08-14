@@ -4,7 +4,14 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'coba-lagi', // Replace with your actual repository name
+  base: 'priestleyjoseph46-code/di-coba', // Replace with your actual repository name
+  plugins: [react()],
+});
+export default defineConfig({
+  base: 'priestleyjoseph46-code/di-coba', // Replace with your actual repository name
+  build: {
+    outDir: 'dist', // Ensure the build output directory is correct
+  },
   plugins: [react()],
 });
 
